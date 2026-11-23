@@ -30,3 +30,26 @@
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# === Dependencias ===
+node_modules/
+venv/
+env/
+
+# === Entornos y configuraciones de IDEs ===
+.idea/
+.vscode/
+*.iml
+
+# === Archivos de caché y compilación de Python ===
+__pycache__/
+*.pyc
+*.pyo
+
+# === Archivos del Sistema Operativo ===
+.DS_Store
+Thumbs.db
+*~
+
+# === Directorio de respaldos locales ===
+backups/
